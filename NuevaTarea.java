@@ -1,8 +1,9 @@
 
 
-
+//inicio de la clase NuevaTarea
 public class NuevaTarea{
-	
+
+//Atributos o variables de clase	
     private String nombre;
     private int fechaIni;
     private int horaIni;
@@ -11,59 +12,64 @@ public class NuevaTarea{
     private int fechaFin;
     private int horaFin;
 
-    public String getNombre() {
+//contructor sin parametros
+public NuevaTarea(){ }
+    
+
+// metodos asignar y obtener
+    public String obtenerNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void asignarNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public int getFechaIni() {
+    public int obtenerFechaIni() {
         return fechaIni;
     }
 
-    public void setFechaIni(int fechaIni) {
+    public void asignarFechaIni(int fechaIni) {
         this.fechaIni = fechaIni;
     }
 
-    public int getHoraIni() {
+    public int obtenerHoraIni() {
         return horaIni;
     }
 
-    public void setHoraIni(int horaIni) {
+    public void asignarHoraIni(int horaIni) {
         this.horaIni = horaIni;
     }
 
-    public int getDuracion() {
+    public int obtenerDuracion() {
         return duracion;
     }
 
-    public void setDuracion(int duracion) {
+    public void asignarDuracion(int duracion) {
         this.duracion = duracion;
     }
 
-    public int getFrecuencia() {
+    public int obtenerFrecuencia() {
         return frecuencia;
     }
 
-    public void setFrecuencia(int frecuencia) {
+    public void asignarFrecuencia(int frecuencia) {
         this.frecuencia = frecuencia;
     }
 
-    public int getFechaFin() {
+    public int obtenerFechaFin() {
         return fechaFin;
     }
 
-    public void setFechaFin(int fechaFin) {
+    public void asignarFechaFin(int fechaFin) {
         this.fechaFin = fechaFin;
     }
 
-    public int getHoraFin() {
+    public int obtenerHoraFin() {
         return horaFin;
     }
 
-    public void setHoraFin(int horaFin) {
+    public void asignarHoraFin(int horaFin) {
         this.horaFin = horaFin;
     }
     

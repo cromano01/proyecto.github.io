@@ -2,7 +2,10 @@
 <html>
 <body>
 
-Dcumento de inicio del proyecto de programación en java
+Dcumento de inicio del proyecto de programación en java.
+
+Programa para enlistar las tareas que se tengan 
+y combinarlas con las actividades diarias del día a día.
 
 </body>
 

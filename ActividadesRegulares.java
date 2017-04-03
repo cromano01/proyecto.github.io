@@ -1,48 +1,59 @@
+
+
+
+
+//Clase
 public class ActividadesRegulares{
-	
-    	private String nombre;
+//Variables de clase o atributos	
+    private String nombre;
 	private int fechaIni;
        	private int horaIni;
 	private int duracion;
        	private int frecuencia;
 
-    public String getNombre() {
+//contructor
+public ActividadesRegulares(){
+
+    
+}
+//Métodos obtener y asignar
+    public String obtenerNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void asignarNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public int getFechaIni() {
+    public int obtenerFechaIni() {
         return fechaIni;
     }
 
-    public void setFechaIni(int fechaIni) {
+    public void asignarFechaIni(int fechaIni) {
         this.fechaIni = fechaIni;
     }
 
-    public int getHoraIni() {
+    public int obtenerHoraIni() {
         return horaIni;
     }
 
-    public void setHoraIni(int horaIni) {
+    public void asignarHoraIni(int horaIni) {
         this.horaIni = horaIni;
     }
 
-    public int getDuracion() {
+    public int obtenerDuracion() {
         return duracion;
     }
 
-    public void setDuracion(int duracion) {
+    public void asignarDuracion(int duracion) {
         this.duracion = duracion;
     }
 
-    public int getFrecuencia() {
+    public int obtenerFrecuencia() {
         return frecuencia;
     }
 
-    public void setFrecuencia(int frecuencia) {
+    public void asignarFrecuencia(int frecuencia) {
         this.frecuencia = frecuencia;
     }
 
