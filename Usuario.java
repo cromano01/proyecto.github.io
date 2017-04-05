@@ -8,6 +8,8 @@ public class Usuario{
     private String apllidomat;
     private String apllidopat;
     private String email;
+    private String nickname;
+    private int[] fechaDeNacimiento;
 
 //contructor sin parametros
     public Usuario()
@@ -24,6 +26,8 @@ public class Usuario{
     	this.apllidopat = apllidopat;
     	this.apllidomat = apllidomat;
     	this.email = email;
+        this.nickname = nickname;
+        this.fechaDeNacimiento = fechaDeNacimiento;
 
     }
 
@@ -70,6 +74,23 @@ public class Usuario{
     public void asignarEmail(String email) {
         this.email = email;
     }
+
+        public String obtenerNickname() {
+        return nickname;
+    }
+
+    public void asignarNickname(String nickname) {
+        this.nickname = nickname;
+    }
+
+    public int[] obtenerFechaDeNacim() {
+        return fechaDeNacim;
+    }
+
+    public void asignarFechaDeNacim(int[] fechaDeNacim) {
+        this.fechaDeNacim = fechaDeNacim;
+    }
+   
     
 //método toString para concatenar en forma de texto las variables de forma que el texto tenga sentido
     public String toString(){
